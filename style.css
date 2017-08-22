@@ -72,6 +72,7 @@ a:hover{
 
 .btn-main{
   font-size:16px;
+  font-weight:500;
   color:#fff;
   background-color:#aa2327;
   padding:5px 30px;
@@ -161,6 +162,7 @@ img.alignright{
 
 .navbar-nav>li>a{
   font-size:22px;
+  font-weight:500;
   color:#fff;
   text-transform:uppercase;
 }
@@ -215,6 +217,7 @@ img.alignright{
 
 #gentryFamily{
   position:relative;
+  box-shadow:0px 0px 8px #aaa;
 }
 #gentryFamily>img{
   width:100%;
@@ -241,6 +244,7 @@ img.alignright{
 #mainContent{
   background-color:rgba(255,255,255,.7);
   padding:15px;
+  box-shadow:0px 0px 8px #aaa;
 }
 #mainContent .thumbnail{
   max-width:155px;
@@ -254,11 +258,13 @@ img.alignright{
 }
 #mainContent .thumbnail>.caption>h2{
   font-size:24px;
-  font-weight:800;
   text-transform:uppercase;
-  color:#fff;
   margin-top:0;
   margin-bottom:0;
+}
+#mainContent .thumbnail>.caption>h2>a{
+  color:#fff;
+  font-weight:800;
 }
 
 #blog-social>.row>.col-sm-7,
@@ -268,6 +274,7 @@ img.alignright{
 #blog-social .events-blog{
   background-color:#acacac;
   padding:15px;
+  box-shadow:0px 0px 8px #aaa;
 }
 #blog-social .events-blog .event-summary>.date-title,
 #blog-social .events-blog .title{
