@@ -3,7 +3,7 @@
   <div class="container">
     <section id="mainContent">
       <h1>News &amp; Updates</h1>
-      <?php if(have_posts()) while(have_posts()): the_post(); ?>
+      <?php if(have_posts()): while(have_posts()): the_post(); ?>
         <div class="blog-summary">
           <p class="title"><?php the_title(); ?></p>
           <div class="blog-excerpt"><?php the_excerpt(); ?></div>

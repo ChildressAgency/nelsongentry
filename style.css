@@ -159,6 +159,9 @@ img.alignright{
 .navbar-form .social>a:focus{
   opacity:.7;
 }
+.navbar-form>.wpcf7{
+  display:inline-block;
+}
 
 .navbar-nav>li>a{
   font-size:22px;

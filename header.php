@@ -63,8 +63,8 @@
       </div>
     </div>
   </nav>
-  <?php if(get_field('site_message')): ?>
+  <?php if(get_field('site_message', 'option')): ?>
     <section id="site-message">
-      <p><?php the_field('site_message'); ?></p>
+      <p><?php the_field('site_message', 'option'); ?></p>
     </section>
   <?php endif; ?>
