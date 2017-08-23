@@ -24,7 +24,7 @@
             <div class="col-sm-4">
               <?php if(get_field('key_issue_1_title')): ?>
                 <div class="thumbnail">
-                  <img src="<?php echo get_field('key_issue_1_image') ? get_field('key_issue_1_image') : get_stylesheet_directory_uri() . '/images/logo.png'; ?>" alt="" />
+                  <img src="<?php echo get_field('key_issue_1_image') ? get_field('key_issue_1_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
                     <h2><a href="<?php the_field('key_issue_1_link'); ?>"><?php the_field('key_issue_1_title'); ?></a></h2>
                   </div>
@@ -34,7 +34,7 @@
             <div class="col-sm-4">
               <?php if(get_field('key_issue_2_title')): ?>
                 <div class="thumbnail">
-                  <img src="<?php echo get_field('key_issue_2_image') ? get_field('key_issue_2_image') : get_stylesheet_directory_uri() . '/images/logo.png'; ?>" alt="" />
+                  <img src="<?php echo get_field('key_issue_2_image') ? get_field('key_issue_2_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
                     <h2><a href="<?php the_field('key_issue_2_link'); ?>"><?php the_field('key_issue_2_title'); ?></a></h2>
                   </div>
@@ -44,7 +44,7 @@
             <div class="col-sm-4">
               <?php if(get_field('key_issue_3_title')): ?>
                 <div class="thumbnail">
-                  <img src="<?php echo get_field('key_issue_3_image') ? get_field('key_issue_3_image') : get_stylesheet_directory_uri() . '/images/logo.png'; ?>" alt="" />
+                  <img src="<?php echo get_field('key_issue_3_image') ? get_field('key_issue_3_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
                     <h2><a href="<?php the_field('key_issue_3_link'); ?>"><?php the_field('key_issue_3_title'); ?></a></h2>
                   </div>
@@ -92,7 +92,7 @@
           </div>
         </div>
         <div class="col-sm-5">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-stream-placeholder.jpg" class="img-responsive center-block" alt="Social feed" />
+          <?php echo do_shortcode('[custom-facebook-feed]'); ?>
         </div>
       </div>
     </section>

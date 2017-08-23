@@ -34,7 +34,7 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <div class="navbar-form navbar-right">
-          <?php echo do_shortcode('[signup-form]'); ?>
+          <?php echo do_shortcode('[contact-form-7 id="45" title="Newsletter Signup"]'); ?>
           <div class="social">
             <?php if(get_field('facebook', 'option')): ?>
               <a href="<?php the_field('facebook', 'option'); ?>"><i class="fa fa-facebook-official"></i></a>
