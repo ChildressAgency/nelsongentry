@@ -242,7 +242,7 @@ img.alignright{
 }
 
 #mainContent{
-  background-color:rgba(255,255,255,.7);
+  background-color:rgba(255,255,255,.8);
   padding:15px;
   box-shadow:0px 0px 8px #aaa;
 }
@@ -276,16 +276,21 @@ img.alignright{
   padding:15px;
   box-shadow:0px 0px 8px #aaa;
 }
-#blog-social .events-blog .event-summary>.date-title,
-#blog-social .events-blog .title{
+.event-summary>.date-title,
+.title{
   margin-bottom:0;
 }
-#blog-social .events-blog .event-summary>.date-title span{
+.event-summary>.date-title span{
   font-weight:500;
 }
-#blog-social .events-blog .event-summary>.location,
-#blog-social .events-blog .blog-excerpt{
+.event-summary>.location,
+#blog-social .events-blog .blog-excerpt,
+.blog-summary .blog-excerpt{
   font-style:italic;
+}
+
+.blog-summary{
+  margin-bottom:40px;
 }
 
 footer{
