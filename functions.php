@@ -279,8 +279,8 @@ function nelsongentry_fallback_header_menu(){ ?>
   <ul class="nav navbar-nav navbar-right">
     <li<?php if(is_front_page()){ echo ' class="active"'; } ?>><a href="<?php echo home_url(); ?>" title="Home">Home</a></li>
     <li<?php if(is_page('about')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('about'); ?>" title="About">About</a></li>
-    <li<?php if(is_page('key-issues')){ echo ' class="active"'; ?>><a href="<?php echo home_url('key-issues'); ?>" title="Key Issues">Key Issues</a></li>
-    <li<?php if(is_page('news-updates')){ echo ' class="active"'; ?>><a href="<?php echo home_url('news-updates'); ?>" title="News &amp; Updates">News &amp; Updates</a></li>
+    <li<?php if(is_page('key-issues')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('key-issues'); ?>" title="Key Issues">Key Issues</a></li>
+    <li<?php if(is_page('news-updates')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('news-updates'); ?>" title="News &amp; Updates">News &amp; Updates</a></li>
     <li<?php if(is_page('events')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('events'); ?>" title="Events">Events</a></li>
     <li<?php if(is_page('contact')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('contact'); ?>" title="Contact">Contact</a></li>
   </ul>
