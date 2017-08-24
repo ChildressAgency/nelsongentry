@@ -119,6 +119,10 @@ img.alignright{
   padding-top:15px;
   padding-bottom:15px;
 }
+.navbar-form .spotsy-seal{
+  display:inline-block;
+  margin-right:25px;
+}
 .navbar-form>form{
   display:inline-block;
 }
@@ -307,11 +311,8 @@ footer{
 
 
 @media (min-width:992px){
-  .container-fluid>.navbar-collapse{
+  .container>.navbar-collapse{
     float:right;
-  }
-  .navbar-nav{
-    margin-top:50px;
   }
   .navbar-right~.navbar-right{
     margin-right:-15px;

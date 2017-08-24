@@ -22,7 +22,7 @@
 
 <body>
   <nav id="header-nav">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <a href="<?php echo home_url(); ?>" class="header-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.jpg" class="img-responsive" alt="Elect Nelson Gentry Logo" /></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="expanded" aria-controls="navbar">
@@ -34,6 +34,7 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <div class="navbar-form navbar-right">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spotsylvania-county-seal.png" class="img-responsive spotsy-seal" alt="Spotsylvania County Seal" />
           <?php echo do_shortcode('[contact-form-7 id="45" title="Newsletter Signup"]'); ?>
           <div class="social">
             <?php if(get_field('facebook', 'option')): ?>
