@@ -1,12 +1,14 @@
 <?php get_header(); ?>
+<main id="main">
   <div class="container">
-    <div class="main">
-      <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-        <h2><?php the_title(); ?></h2>
-        <h3><?php the_field('event_date'); ?></h3>
-        <p><?php the_field('event_description'); ?></p>
-        <?php the_field('event_details'); ?>
-      <?php endwhile; endif; ?>
-    </div>
+    <section id="mainContent">
+      <?php if(have_posts()): while(have_posts()): the_post(); ?>
+        <h1><?php the_title(); ?></h1>
+        <?php the_content(); ?>
+      <?php endwhile; else: ?>
+        <p>Sorry, page not found.</p>
+      <?php endif; ?>
+    </section>
   </div>
+</main>
 <?php get_footer(); ?>
