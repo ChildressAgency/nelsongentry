@@ -268,10 +268,17 @@ img.alignright{
   text-transform:uppercase;
   margin-top:0;
   margin-bottom:0;
+  color:#fff;
+  font-weight:800;
 }
 #mainContent .thumbnail>.caption>h2>a{
   color:#fff;
   font-weight:800;
+}
+#mainContent .thumbnail>.caption>p{
+  margin-top:5px;
+  color:#fff;
+  margin-bottom:0;
 }
 
 #blog-social>.row>.col-sm-7,

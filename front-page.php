@@ -26,7 +26,12 @@
                 <div class="thumbnail">
                   <img src="<?php echo get_field('key_issue_1_image') ? get_field('key_issue_1_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
-                    <h2><a href="<?php the_field('key_issue_1_link'); ?>"><?php the_field('key_issue_1_title'); ?></a></h2>
+                    <?php if(get_field('key_issue_1_link')): ?>
+                      <h2><a href="<?php the_field('key_issue_1_link'); ?>"><?php the_field('key_issue_1_title'); ?></a></h2>
+                    <?php else: ?>
+                      <h2><?php the_field('key_issue_1_title'); ?></h2>
+                    <?php endif; ?>
+                    <p><?php the_field('key_issue_1_content'); ?></p>
                   </div>
                 </div>
               <?php endif; ?>
@@ -36,7 +41,12 @@
                 <div class="thumbnail">
                   <img src="<?php echo get_field('key_issue_2_image') ? get_field('key_issue_2_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
-                    <h2><a href="<?php the_field('key_issue_2_link'); ?>"><?php the_field('key_issue_2_title'); ?></a></h2>
+                    <?php if(get_field('key_issue_2_link')): ?>
+                      <h2><a href="<?php the_field('key_issue_2_link'); ?>"><?php the_field('key_issue_2_title'); ?></a></h2>
+                    <?php else: ?>
+                      <h2><?php the_field('key_issue_2_title'); ?></h2>
+                    <?php endif; ?>
+                    <p><?php the_field('key_issue_2_content'); ?></p>
                   </div>
                 </div>
               <?php endif; ?>
@@ -46,7 +56,12 @@
                 <div class="thumbnail">
                   <img src="<?php echo get_field('key_issue_3_image') ? get_field('key_issue_3_image') : get_stylesheet_directory_uri() . '/images/logo.jpg'; ?>" alt="" />
                   <div class="caption">
-                    <h2><a href="<?php the_field('key_issue_3_link'); ?>"><?php the_field('key_issue_3_title'); ?></a></h2>
+                    <?php if(get_field('key_issue_3_link')): ?>
+                      <h2><a href="<?php the_field('key_issue_3_link'); ?>"><?php the_field('key_issue_3_title'); ?></a></h2>
+                    <?php else: ?>
+                      <h2><?php the_field('key_issue_3_title'); ?></h2>
+                    <?php endif; ?>
+                    <p><?php the_field('key_issue_3_content'); ?></p>
                   </div>
                 </div>
               <?php endif; ?>
