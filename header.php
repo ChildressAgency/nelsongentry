@@ -34,7 +34,7 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <div class="navbar-form navbar-right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spotsylvania-county-seal.png" class="img-responsive spotsy-seal" alt="Spotsylvania County Seal" />
+          <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spotsylvania-county-seal.png" class="img-responsive spotsy-seal" alt="Spotsylvania County Seal" />-->
           <?php echo do_shortcode('[contact-form-7 id="45" title="Newsletter Signup"]'); ?>
           <div class="social">
             <?php if(get_field('facebook', 'option')): ?>
